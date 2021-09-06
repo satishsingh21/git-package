@@ -22,7 +22,7 @@ jobs:
 
     - name: Install the dependencies 
       run: |
-        npm install --dev
+        npm install
 
     - name: Checkout
       uses: actions/checkout@v2
