@@ -1,13 +1,13 @@
 {
   "name": "@satishsingh21/git-package",
-  "version": "1.2.2",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "repository": {
     "url": "git://github.com/satishsingh21/git-package.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@satishsingh21"
+    "registry": "https://npm.pkg.github.com/@satishsingh21"
   },
   "author": "",
   "license": "ISC",
