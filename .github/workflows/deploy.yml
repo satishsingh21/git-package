@@ -22,9 +22,6 @@ jobs:
 
     - name: Install the dependencies 
       run: |
-        npm install -g npm-cli-login
-        npm-cli-login -u ${{ secrets.NPM_USERNAME }} -p ${{ secrets.NPM_PASSWORD }} -e ${{ secrets.NPM_EMAIL }} -r ${{ secrets.NPM_REGISTRY }} -s ${{ secrets.NPM_SCOPE }}
-        npm config set registry ${{ secrets.NPM_REGISTRY }}
         npm install
 
     - name: Checkout
