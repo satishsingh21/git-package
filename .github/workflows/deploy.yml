@@ -22,18 +22,12 @@ jobs:
 
     - name: Install the dependencies 
       run: |
-        npm install
-
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: Semantic Release
-      run: |
-        - npm install -g npm-cli-login
-        - npm-cli-login -u satishsingh21 -p ${{ secrets.PAT_TOKEN }} -r https://npm.pkg.github.com -s @satishsingh21
-        - npm config set registry https://npm.pkg.github.com
-        - npm run semantic-release
+        npm install -g npm-cli-login
+        npm-cli-login -u "satishsingh21" -p ${{ secrets.PAT_TOKEN }} -s "@satishsingh21"
+        npm config set registry "https://npm.pkg.github.com"
+    
+    - name: Release the app
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.PAT_TOKEN }}
+      run: npm run semantic-release
 
