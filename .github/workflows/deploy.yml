@@ -26,8 +26,11 @@ jobs:
 
     - name: Checkout
       uses: actions/checkout@v2
+
     - name: Semantic Release
-      uses: cycjimmy/semantic-release-action@v2
+        - npm-cli-login -u "satishsingh21" -p $PAT_TOKEN  -r "https://npm.pkg.github.com" -s "@satishsingh21"
+        - npm config set registry $NPM_REGISTRY
+        - npm run semantic-release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NPM_TOKEN: ${{ secrets.PAT_TOKEN }}
