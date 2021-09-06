@@ -28,6 +28,7 @@ jobs:
 
     - name: Release the app
       env:
+        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: npm run semantic-release
 
