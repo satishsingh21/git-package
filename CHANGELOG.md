@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.0.2](https://github.com/satishsingh21/git-package/compare/v1.0.1...v1.0.2) (2021-09-06)
+
+
+### Bug Fixes
+
+* testing ([fc27d9e](https://github.com/satishsingh21/git-package/commit/fc27d9e2360f5bd8173c51f16bc6b676557ae7e9))
+
 ## [1.0.1](https://github.com/satishsingh21/git-package/compare/v1.0.0...v1.0.1) (2021-09-06)
 
 
