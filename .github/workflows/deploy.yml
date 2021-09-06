@@ -23,10 +23,10 @@ jobs:
     - name: Install the dependencies 
       run: |
         npm install -g npm-cli-login
-        npm-cli-login -u "satishsingh21" -p ${{ secrets.PAT_TOKEN }} -r "https://npm.pkg.github.com"  -e "kumarsingh.satish1@gmail.com" -s "@satishsingh21"
+        npm-cli-login -u "satishsingh21" -p ${{ secrets.PAT_TOKEN }} -r "https://npm.pkg.github.com"  -e "Satishkumar.Singh@Triconinfotech.com" -s "@satishsingh21"
         npm config set registry "https://npm.pkg.github.com"
         npm install
-        
+
     - name: Release the app
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
