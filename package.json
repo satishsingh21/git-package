@@ -7,7 +7,7 @@
     "url": "git://github.com/satishsingh21/git-package.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@satishsingh21"
   },
   "author": "",
   "license": "ISC",
