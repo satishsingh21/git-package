@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## [1.0.1](https://github.com/satishsingh21/git-package/compare/v1.0.0...v1.0.1) (2021-09-07)
+
+
+### Bug Fixes
+
+* npm login command updated ([5a5d866](https://github.com/satishsingh21/git-package/commit/5a5d866674c5e8e0d22b3f887b5dab71db31db4b))
+* npm login command updated ([df5f98b](https://github.com/satishsingh21/git-package/commit/df5f98ba70b63f46054439b60fe1c18516bf82f0))
+* npm login command updated ([f9384f0](https://github.com/satishsingh21/git-package/commit/f9384f0749bcfe910d36822c0b6f399f448c7617))
+
 # 1.0.0 (2021-09-06)
 
 
